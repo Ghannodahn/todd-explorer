@@ -1,0 +1,165 @@
+{
+  "components": {
+    "m1": [
+      {
+        "id": "arena",
+        "name": "Arena",
+        "type": "Environment",
+        "description": "The component used to pit solutions against each other in Challenges. Provides the environment where solutions compete.",
+        "connections": ["challenge", "solution", "watcher", "judge"]
+      },
+      {
+        "id": "challenge",
+        "name": "Challenge",
+        "type": "Specification",
+        "description": "A mechanism for comparing solutions' performance. Provides context up front (including prompts, attached information), may allow or restrict access to tools and services, and has clear expectations for results.",
+        "connections": ["arena", "solution"]
+      },
+      {
+        "id": "solution",
+        "name": "Solution",
+        "type": "Varies",
+        "description": "Represents a means of solving a challenge. Initial implementation presents each AI release (Claude 3.7, ChatGPT 4o, Gemini 2.0, and Perplexity) as a Solution.",
+        "connections": ["arena", "challenge"]
+      },
+      {
+        "id": "watcher",
+        "name": "Watcher",
+        "type": "Agent",
+        "description": "Observes a challenge and records the results.",
+        "connections": ["arena", "conclusion"]
+      },
+      {
+        "id": "judge",
+        "name": "Judge",
+        "type": "Agent",
+        "description": "Measures various aspects of the result including speed, accuracy, and aesthetics. Declares the \"winner\" and provides context for the decision.",
+        "connections": ["arena", "conclusion"]
+      },
+      {
+        "id": "conclusion",
+        "name": "Conclusion",
+        "type": "Data",
+        "description": "A final summary of the Judge(s)' findings.",
+        "connections": ["watcher", "judge", "library"]
+      },
+      {
+        "id": "library",
+        "name": "Library",
+        "type": "Data",
+        "description": "Stores information on Solutions, Challenges, Results, and Conclusions.",
+        "connections": ["conclusion", "showman"]
+      },
+      {
+        "id": "showman",
+        "name": "Showman",
+        "type": "Frontend",
+        "description": "A website that allows browsing and defining challenges. Its UX should feel like an RPG game with the Solutions presented as characters with attributes and stats.",
+        "connections": ["library"]
+      }
+    ],
+    "m2": [
+      {
+        "id": "gptSolution",
+        "name": "GPT Solution",
+        "type": "Solution",
+        "description": "Evolved from M1 Solutions, specifically GPT Solutions (Claude 3.7, ChatGPT 4o, Gemini 2.0, and Perplexity).",
+        "connections": ["solution"]
+      },
+      {
+        "id": "toolSolution",
+        "name": "Tool Solution",
+        "type": "Solution",
+        "description": "A non-AI solution to a problem.",
+        "connections": ["solution"]
+      },
+      {
+        "id": "recommender",
+        "name": "Recommender",
+        "type": "Agent",
+        "description": "Responsible for proactively identifying the best solution for a task.",
+        "connections": ["challenge", "gptSolution", "toolSolution"]
+      },
+      {
+        "id": "optimizer",
+        "name": "Optimizer",
+        "type": "Agent",
+        "description": "Responsible for imagining and designing improvements to a solution. May include fine-tuning, distilled models, existing tooling, and/or authoring new tools.",
+        "connections": [
+          "gptSolution",
+          "toolSolution",
+          "prompty",
+          "tuner",
+          "distiller",
+          "integrator",
+          "engineer"
+        ]
+      },
+      {
+        "id": "prompty",
+        "name": "Prompty",
+        "type": "Agent",
+        "description": "Rewrites a Challenge (including but not limited to prompts) based on a spec from Optimizer.",
+        "connections": ["optimizer", "challenge"]
+      },
+      {
+        "id": "tuner",
+        "name": "Tuner",
+        "type": "Agent",
+        "description": "Provides a fine-tuned version of a model.",
+        "connections": ["optimizer", "gptSolution"]
+      },
+      {
+        "id": "distiller",
+        "name": "Distiller",
+        "type": "Agent",
+        "description": "Produces a distilled model more optimized to a challenge or set of challenges.",
+        "connections": ["optimizer", "gptSolution"]
+      },
+      {
+        "id": "integrator",
+        "name": "Integrator",
+        "type": "Agent",
+        "description": "Uses existing tooling.",
+        "connections": ["optimizer", "toolSolution"]
+      },
+      {
+        "id": "engineer",
+        "name": "Engineer",
+        "type": "Agent",
+        "description": "Creates new tooling.",
+        "connections": ["optimizer", "toolSolution"]
+      }
+    ]
+  },
+  "typeMapping": {
+    "Environment": {
+      "color": "#4CAF50",
+      "icon": "environment"
+    },
+    "Specification": {
+      "color": "#2196F3",
+      "icon": "specification"
+    },
+    "Varies": {
+      "color": "#9C27B0",
+      "icon": "varies"
+    },
+    "Solution": {
+      "color": "#9C27B0",
+      "icon": "solution"
+    },
+    "Agent": {
+      "color": "#FF9800",
+      "icon": "agent"
+    },
+    "Data": {
+      "color": "#795548",
+      "icon": "data"
+    },
+    "Frontend": {
+      "color": "#E91E63",
+      "icon": "frontend"
+    }
+  }
+}

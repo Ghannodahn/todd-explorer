@@ -1,0 +1,104 @@
+{
+  "arena": {
+    "x": 310,
+    "y": 230,
+    "width": 140,
+    "height": 80
+  },
+  "challenge": {
+    "x": 530,
+    "y": 360,
+    "width": 140,
+    "height": 80
+  },
+  "solution": {
+    "x": 530,
+    "y": 230,
+    "width": 140,
+    "height": 80
+  },
+  "watcher": {
+    "x": 310,
+    "y": 360,
+    "width": 140,
+    "height": 80
+  },
+  "judge": {
+    "x": 110,
+    "y": 230,
+    "width": 140,
+    "height": 80
+  },
+  "conclusion": {
+    "x": 110,
+    "y": 360,
+    "width": 140,
+    "height": 80
+  },
+  "library": {
+    "x": -90,
+    "y": 360,
+    "width": 140,
+    "height": 80
+  },
+  "showman": {
+    "x": -90,
+    "y": 500,
+    "width": 140,
+    "height": 80
+  },
+  "gptSolution": {
+    "x": 430,
+    "y": 120,
+    "width": 140,
+    "height": 80
+  },
+  "toolSolution": {
+    "x": 630,
+    "y": 120,
+    "width": 140,
+    "height": 80
+  },
+  "recommender": {
+    "x": 530,
+    "y": 10,
+    "width": 140,
+    "height": 80
+  },
+  "optimizer": {
+    "x": 400,
+    "y": 450,
+    "width": 140,
+    "height": 80
+  },
+  "prompty": {
+    "x": 140,
+    "y": 450,
+    "width": 140,
+    "height": 80
+  },
+  "tuner": {
+    "x": 320,
+    "y": 250,
+    "width": 140,
+    "height": 80
+  },
+  "distiller": {
+    "x": 140,
+    "y": 250,
+    "width": 140,
+    "height": 80
+  },
+  "integrator": {
+    "x": 750,
+    "y": 450,
+    "width": 140,
+    "height": 80
+  },
+  "engineer": {
+    "x": 630,
+    "y": 350,
+    "width": 140,
+    "height": 80
+  }
+}

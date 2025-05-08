@@ -1,0 +1,255 @@
+{
+  "title": "Curried Chicken Sliders",
+  "subtitle": "Indian-Spiced Appetizer",
+  "description": "These flavorful sliders feature ground chicken patties infused with aromatic Indian spices and topped with a cooling cucumber raita and mango chutney.",
+
+  "ingredients": [
+    {
+      "name": "Ground Chicken",
+      "amount": "1 lb",
+      "category": "protein",
+      "iconColor": "bg-red-800",
+      "bgColor": "bg-red-50",
+      "note": "For patties",
+      "letter": "C"
+    },
+    {
+      "name": "Onion",
+      "amount": "1 small",
+      "category": "vegetable",
+      "iconColor": "bg-green-700",
+      "bgColor": "bg-green-100",
+      "note": "Finely diced",
+      "letter": "O"
+    },
+    {
+      "name": "Garlic",
+      "amount": "2 cloves",
+      "category": "vegetable",
+      "iconColor": "bg-green-800",
+      "bgColor": "bg-green-50",
+      "note": "Minced",
+      "letter": "G"
+    },
+    {
+      "name": "Ginger",
+      "amount": "1 tbsp",
+      "category": "vegetable",
+      "iconColor": "bg-green-700",
+      "bgColor": "bg-green-200",
+      "note": "Freshly grated",
+      "letter": "G"
+    },
+    {
+      "name": "Curry Powder",
+      "amount": "2 tbsp",
+      "category": "spice",
+      "iconColor": "bg-amber-700",
+      "bgColor": "bg-amber-50",
+      "note": "Main flavor",
+      "letter": "C"
+    },
+    {
+      "name": "Garam Masala",
+      "amount": "1 tsp",
+      "category": "spice",
+      "iconColor": "bg-amber-800",
+      "bgColor": "bg-amber-100",
+      "note": "For depth",
+      "letter": "G"
+    },
+    {
+      "name": "Cumin",
+      "amount": "1 tsp",
+      "category": "spice",
+      "iconColor": "bg-amber-600",
+      "bgColor": "bg-amber-200",
+      "note": "Ground",
+      "letter": "C"
+    },
+    {
+      "name": "Turmeric",
+      "amount": "1/2 tsp",
+      "category": "spice",
+      "iconColor": "bg-amber-500",
+      "bgColor": "bg-amber-100",
+      "note": "For color & flavor",
+      "letter": "T"
+    },
+    {
+      "name": "Coriander",
+      "amount": "1/2 tsp",
+      "category": "spice",
+      "iconColor": "bg-amber-600",
+      "bgColor": "bg-amber-50",
+      "note": "Ground powder",
+      "letter": "C"
+    },
+    {
+      "name": "Cayenne",
+      "amount": "1/4 tsp",
+      "category": "spice",
+      "iconColor": "bg-red-700",
+      "bgColor": "bg-amber-200",
+      "note": "Adjust to taste",
+      "letter": "C"
+    },
+    {
+      "name": "Cilantro",
+      "amount": "1/4 cup",
+      "category": "herb",
+      "iconColor": "bg-emerald-700",
+      "bgColor": "bg-emerald-50",
+      "note": "Fresh, chopped",
+      "letter": "C"
+    },
+    {
+      "name": "Egg",
+      "amount": "1",
+      "category": "protein",
+      "iconColor": "bg-yellow-600",
+      "bgColor": "bg-red-100",
+      "note": "For binding",
+      "letter": "E"
+    },
+    {
+      "name": "Breadcrumbs",
+      "amount": "1/4 cup",
+      "category": "grain",
+      "iconColor": "bg-amber-500",
+      "bgColor": "bg-amber-50",
+      "note": "For binding",
+      "letter": "B"
+    },
+    {
+      "name": "Salt",
+      "amount": "1 tsp",
+      "category": "seasoning",
+      "iconColor": "bg-stone-600",
+      "bgColor": "bg-stone-100",
+      "note": "To taste",
+      "letter": "S"
+    },
+    {
+      "name": "Black Pepper",
+      "amount": "1/2 tsp",
+      "category": "seasoning",
+      "iconColor": "bg-stone-800",
+      "bgColor": "bg-stone-200",
+      "note": "Freshly ground",
+      "letter": "P"
+    },
+    {
+      "name": "Vegetable Oil",
+      "amount": "2 tbsp",
+      "category": "oil",
+      "iconColor": "bg-yellow-600",
+      "bgColor": "bg-yellow-50",
+      "note": "For cooking",
+      "letter": "O"
+    },
+    {
+      "name": "Greek Yogurt",
+      "amount": "1 cup",
+      "category": "dairy",
+      "iconColor": "bg-blue-600",
+      "bgColor": "bg-blue-50",
+      "note": "For raita",
+      "letter": "Y"
+    },
+    {
+      "name": "Cucumber",
+      "amount": "1/2",
+      "category": "vegetable",
+      "iconColor": "bg-green-600",
+      "bgColor": "bg-green-150",
+      "note": "Grated, drained",
+      "letter": "C"
+    },
+    {
+      "name": "Mint",
+      "amount": "2 tbsp",
+      "category": "herb",
+      "iconColor": "bg-emerald-800",
+      "bgColor": "bg-emerald-100",
+      "note": "Fresh, chopped",
+      "letter": "M"
+    },
+    {
+      "name": "Slider Buns",
+      "amount": "12",
+      "category": "grain",
+      "iconColor": "bg-amber-600",
+      "bgColor": "bg-amber-100",
+      "note": "Mini rolls",
+      "letter": "B"
+    },
+    {
+      "name": "Mango Chutney",
+      "amount": "1/4 cup",
+      "category": "condiment",
+      "iconColor": "bg-orange-600",
+      "bgColor": "bg-orange-50",
+      "note": "For topping",
+      "letter": "C"
+    },
+    {
+      "name": "Arugula",
+      "amount": "1 cup",
+      "category": "vegetable",
+      "iconColor": "bg-green-800",
+      "bgColor": "bg-green-100",
+      "note": "For garnish",
+      "letter": "A"
+    },
+    {
+      "name": "Red Onion",
+      "amount": "1/4",
+      "category": "vegetable",
+      "iconColor": "bg-purple-700",
+      "bgColor": "bg-purple-50",
+      "note": "Thinly sliced",
+      "letter": "R"
+    }
+  ],
+
+  "cookingSteps": [
+    {
+      "title": "Prepare Raita",
+      "time": "10 min",
+      "instructions": "Combine Greek yogurt, grated cucumber, chopped mint, 1/4 tsp cumin powder, and salt in a small bowl. Mix well and refrigerate until ready to use."
+    },
+    {
+      "title": "Mix Patty Ingredients",
+      "time": "15 min",
+      "instructions": "In a large bowl, combine ground chicken with onion, garlic, ginger, all spices, cilantro, egg, breadcrumbs, salt, and pepper. Mix gently but thoroughly."
+    },
+    {
+      "title": "Form Patties",
+      "time": "10 min",
+      "instructions": "Divide mixture into 12 equal portions and form into small patties slightly larger than the slider buns. Refrigerate for 20-30 minutes to firm up."
+    },
+    {
+      "title": "Cook Patties",
+      "time": "8-10 min",
+      "instructions": "Heat vegetable oil in a large skillet over medium heat. Cook patties in batches, about 3-4 minutes per side, until golden and cooked through (internal temp 165°F/74°C)."
+    },
+    {
+      "title": "Assemble Sliders",
+      "time": "10 min",
+      "instructions": "Spread mango chutney on bottom buns, add arugula, cooked patty, a spoonful of raita, red onion slices, and cilantro leaves. Top with upper bun and secure with toothpick if needed."
+    }
+  ],
+
+  "equipment": [
+    "Mixing bowls",
+    "Measuring spoons",
+    "Grater",
+    "Chef's knife",
+    "Cutting board",
+    "Large skillet",
+    "Meat thermometer"
+  ],
+
+  "additionalNotes": "For an authentic touch, add 1 teaspoon of fenugreek leaves (kasoori methi) to the chicken mixture. These sliders pair well with sweet potato fries dusted with garam masala."
+}

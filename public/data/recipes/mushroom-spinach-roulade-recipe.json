@@ -1,0 +1,220 @@
+{
+  "title": "Mushroom & Spinach Stuffed Chicken Roulade",
+  "subtitle": "Non-Dairy & Carb-Friendly",
+  "description": "A stunning yet surprisingly simple dish featuring juicy chicken breasts pounded thin, then filled with a flavorful mixture of sautéed mushrooms and spinach.",
+  
+  "nutritionalProfile": {
+    "dietaryFeatures": ["Non-dairy", "Low-carb", "High-protein"],
+    "macrosPerServing": {
+      "protein": "35g",
+      "fat": "8g",
+      "carbs": "5g",
+      "fiber": "3g"
+    },
+    "servings": 4
+  },
+  
+  "ingredients": [
+    {
+      "name": "Chicken Breast",
+      "amount": "4 (6-7oz each)",
+      "category": "protein",
+      "iconColor": "bg-red-800",
+      "bgColor": "bg-red-100",
+      "note": "Boneless, skinless",
+      "letter": "C"
+    },
+    {
+      "name": "Cremini Mushrooms",
+      "amount": "8 oz",
+      "category": "vegetable",
+      "iconColor": "bg-green-800",
+      "bgColor": "bg-green-100",
+      "note": "Finely chopped",
+      "letter": "M"
+    },
+    {
+      "name": "Shiitake Mushrooms",
+      "amount": "2 oz",
+      "category": "vegetable",
+      "iconColor": "bg-green-700",
+      "bgColor": "bg-green-50",
+      "note": "Stems removed, chopped",
+      "letter": "S"
+    },
+    {
+      "name": "Baby Spinach",
+      "amount": "4 cups (4 oz)",
+      "category": "vegetable",
+      "iconColor": "bg-green-900",
+      "bgColor": "bg-green-200",
+      "note": "Fresh",
+      "letter": "S"
+    },
+    {
+      "name": "Garlic",
+      "amount": "3 cloves",
+      "category": "vegetable",
+      "iconColor": "bg-green-600",
+      "bgColor": "bg-green-50",
+      "note": "Minced",
+      "letter": "G"
+    },
+    {
+      "name": "Shallot",
+      "amount": "1 medium",
+      "category": "vegetable",
+      "iconColor": "bg-green-700",
+      "bgColor": "bg-green-100",
+      "note": "Finely diced",
+      "letter": "S"
+    },
+    {
+      "name": "Olive Oil",
+      "amount": "4 tbsp",
+      "category": "oil",
+      "iconColor": "bg-amber-600",
+      "bgColor": "bg-amber-50",
+      "note": "Divided",
+      "letter": "O"
+    },
+    {
+      "name": "Fresh Thyme",
+      "amount": "1 tbsp",
+      "category": "herb",
+      "iconColor": "bg-emerald-700",
+      "bgColor": "bg-emerald-50",
+      "note": "Or 1 tsp dried",
+      "letter": "T"
+    },
+    {
+      "name": "Lemon Juice",
+      "amount": "1 tbsp",
+      "category": "acid",
+      "iconColor": "bg-yellow-600",
+      "bgColor": "bg-yellow-50",
+      "note": "Fresh",
+      "letter": "L"
+    },
+    {
+      "name": "Lemon Zest",
+      "amount": "1 tsp",
+      "category": "flavoring",
+      "iconColor": "bg-yellow-700",
+      "bgColor": "bg-yellow-100",
+      "note": "Fresh",
+      "letter": "Z"
+    },
+    {
+      "name": "Nutritional Yeast",
+      "amount": "1/4 cup",
+      "category": "flavoring",
+      "iconColor": "bg-amber-700",
+      "bgColor": "bg-amber-100",
+      "note": "Optional",
+      "letter": "N"
+    },
+    {
+      "name": "Salt",
+      "amount": "To taste",
+      "category": "seasoning",
+      "iconColor": "bg-slate-600",
+      "bgColor": "bg-slate-100",
+      "note": "",
+      "letter": "S"
+    },
+    {
+      "name": "Black Pepper",
+      "amount": "To taste",
+      "category": "seasoning",
+      "iconColor": "bg-slate-800",
+      "bgColor": "bg-slate-200",
+      "note": "Freshly ground",
+      "letter": "P"
+    },
+    {
+      "name": "Garlic Powder",
+      "amount": "1 tsp",
+      "category": "seasoning",
+      "iconColor": "bg-slate-700",
+      "bgColor": "bg-slate-100",
+      "note": "For chicken",
+      "letter": "G"
+    },
+    {
+      "name": "Dried Thyme",
+      "amount": "1 tsp",
+      "category": "herb",
+      "iconColor": "bg-emerald-800",
+      "bgColor": "bg-emerald-100",
+      "note": "For chicken",
+      "letter": "T"
+    },
+    {
+      "name": "Red Pepper Flakes",
+      "amount": "1/4 tsp",
+      "category": "seasoning",
+      "iconColor": "bg-red-600",
+      "bgColor": "bg-red-50",
+      "note": "Optional",
+      "letter": "R"
+    }
+  ],
+  
+  "equipment": [
+    "Meat mallet",
+    "Plastic wrap",
+    "Large skillet",
+    "Cutting board",
+    "Sharp knife",
+    "Kitchen twine",
+    "Baking dish",
+    "Instant-read thermometer"
+  ],
+  
+  "cookingSteps": [
+    {
+      "title": "Prepare the Filling",
+      "time": "15 min",
+      "instructions": "Sauté shallots in olive oil until softened. Add mushrooms and cook until moisture evaporates. Stir in garlic, thyme, and red pepper flakes. Add spinach and cook until wilted. Finish with lemon juice and nutritional yeast. Season and let cool."
+    },
+    {
+      "title": "Prepare the Chicken",
+      "time": "10 min",
+      "instructions": "Butterfly chicken breasts, cover with plastic wrap, and pound to 1/4-inch thickness. Season with oil, salt, pepper, garlic powder, dried thyme, and lemon zest."
+    },
+    {
+      "title": "Assemble Roulades",
+      "time": "10 min",
+      "instructions": "Spread filling over each chicken breast, leaving a border. Roll tightly starting from the narrower end. Secure with kitchen twine or toothpicks."
+    },
+    {
+      "title": "Sear the Roulades",
+      "time": "8 min",
+      "instructions": "Heat olive oil in a skillet over medium-high heat. Sear chicken rolls on all sides until golden brown, about 2-3 minutes per side."
+    },
+    {
+      "title": "Bake",
+      "time": "15-20 min",
+      "instructions": "Transfer seared rolls to a baking dish. Bake at 375°F (190°C) until internal temperature reaches 165°F (74°C)."
+    },
+    {
+      "title": "Rest and Serve",
+      "time": "5 min",
+      "instructions": "Let roulades rest before slicing. Remove twine or toothpicks, slice into rounds, and serve with your favorite low-carb sides."
+    }
+  ],
+  
+  "servingSuggestions": [
+    "Roasted asparagus, broccoli, or cauliflower",
+    "Simple green salad with lemon vinaigrette",
+    "Wild rice or quinoa (for those not strictly limiting carbs)"
+  ],
+  
+  "makeAheadTips": [
+    "Filling can be prepared up to 2 days in advance",
+    "Assembled roulades can be refrigerated uncooked for up to 24 hours"
+  ],
+  
+  "additionalNotes": "For a firmer filling, squeeze excess moisture from the spinach mixture after cooking. If mushrooms stick during cooking, add a splash of chicken broth instead of more oil. Add 1-2 tbsp of chopped sun-dried tomatoes to the filling for extra flavor."
+}

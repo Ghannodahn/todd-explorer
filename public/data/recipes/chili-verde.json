@@ -1,0 +1,142 @@
+{
+    "title": "Traditional Chili Verde with Chicken",
+    "subtitle": "Authentic Mexican Recipe",
+    "description": "A flavorful Mexican stew of tender chicken simmered in a vibrant green chile sauce made from tomatillos, poblanos, jalapeños, and cilantro.",
+    "ingredients": [
+      {
+        "name": "Chicken Thighs",
+        "amount": "2-3 lbs",
+        "category": "meat",
+        "iconColor": "bg-red-800",
+        "bgColor": "bg-red-50",
+        "note": "Boneless, skinless, cut into 1-inch pieces",
+        "letter": "C"
+      },
+      {
+        "name": "Tomatillos",
+        "amount": "1 lb",
+        "category": "vegetable",
+        "iconColor": "bg-green-700",
+        "bgColor": "bg-green-50",
+        "note": "Husked and rinsed",
+        "letter": "T"
+      },
+      {
+        "name": "Poblanos",
+        "amount": "2",
+        "category": "vegetable",
+        "iconColor": "bg-green-600",
+        "bgColor": "bg-green-50",
+        "note": "Roasted and peeled",
+        "letter": "P"
+      },
+      {
+        "name": "Jalapeños",
+        "amount": "2",
+        "category": "vegetable",
+        "iconColor": "bg-green-800",
+        "bgColor": "bg-green-50",
+        "note": "Seeds for medium heat",
+        "letter": "J"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 large",
+        "category": "vegetable",
+        "iconColor": "bg-green-500",
+        "bgColor": "bg-green-50",
+        "note": "White, half chopped/half diced",
+        "letter": "O"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves",
+        "category": "vegetable",
+        "iconColor": "bg-green-900",
+        "bgColor": "bg-green-50",
+        "note": "Peeled",
+        "letter": "G"
+      },
+      {
+        "name": "Cilantro",
+        "amount": "1 bunch",
+        "category": "herb",
+        "iconColor": "bg-emerald-700",
+        "bgColor": "bg-emerald-50",
+        "note": "Stems and leaves separated",
+        "letter": "C"
+      },
+      {
+        "name": "Chicken Broth",
+        "amount": "2 cups",
+        "category": "liquid",
+        "iconColor": "bg-amber-600",
+        "bgColor": "bg-yellow-50",
+        "note": "For simmering",
+        "letter": "B"
+      },
+      {
+        "name": "Cumin",
+        "amount": "1 tbsp",
+        "category": "spice",
+        "iconColor": "bg-amber-800",
+        "bgColor": "bg-amber-50",
+        "note": "Ground",
+        "letter": "C"
+      },
+      {
+        "name": "Oregano",
+        "amount": "1 tbsp",
+        "category": "herb",
+        "iconColor": "bg-emerald-800",
+        "bgColor": "bg-emerald-50",
+        "note": "Mexican preferred",
+        "letter": "O"
+      },
+      {
+        "name": "Lime",
+        "amount": "1",
+        "category": "fruit",
+        "iconColor": "bg-lime-600",
+        "bgColor": "bg-lime-50",
+        "note": "Juiced",
+        "letter": "L"
+      }
+    ],
+
+    "cookingSteps": [
+      {
+        "title": "Prepare the Chicken",
+        "time": "15 min",
+        "instructions": "Season chicken thighs generously with salt and pepper. Brown in batches in a large pot or Dutch oven over medium-high heat until golden on all sides. Remove and set aside."
+      },
+      {
+        "title": "Roast the Chiles",
+        "time": "10 min",
+        "instructions": "Char poblano peppers directly over flame or under broiler until skin blackens and blisters. Place in paper bag for 10 minutes to steam, then peel, seed, and roughly chop."
+      },
+      {
+        "title": "Green Sauce Preparation",
+        "time": "15 min",
+        "instructions": "Blend tomatillos, jalapeños, poblanos, half the onion, garlic, and cilantro stems with 1 cup of chicken broth until smooth. Reserve some cilantro leaves for garnish."
+      },
+      {
+        "title": "Build the Base",
+        "time": "10 min",
+        "instructions": "In the same pot used for chicken, sauté remaining diced onion until translucent. Add cumin and oregano, cooking until fragrant. Pour in green sauce and bring to a simmer."
+      },
+      {
+        "title": "Slow Simmer",
+        "time": "45-60 min",
+        "instructions": "Return browned chicken to pot with remaining broth. Simmer covered on low heat until chicken is tender and sauce has thickened. Stir occasionally and adjust seasoning."
+      },
+      {
+        "title": "Finishing",
+        "time": "5 min",
+        "instructions": "Remove from heat. Stir in lime juice and adjust salt to taste. Let rest 10 minutes before serving to allow flavors to meld. Garnish with fresh cilantro leaves."
+      }
+    ],
+
+    "equipment": ["Dutch oven or heavy pot", "Blender", "Sharp knife", "Cutting board"],
+    "additionalNotes": "While traditional chili verde typically uses pork, this chicken adaptation maintains the authentic flavor profile. The dish originates from Northern Mexico and is popular throughout the Southwestern United States. Traditionally served with warm tortillas or over rice."
+  }

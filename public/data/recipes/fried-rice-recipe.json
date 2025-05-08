@@ -1,0 +1,161 @@
+{
+  "title": "Classic Chinese Fried Rice",
+  "subtitle": "Traditional Cantonese Recipe",
+  "description": "A traditional Chinese dish that transforms leftover rice into a delicious meal. The secret to authentic fried rice is using cold, day-old rice which prevents clumping and creates the perfect texture.",
+
+  "ingredients": [
+    {
+      "name": "Rice",
+      "amount": "3 cups",
+      "category": "grain",
+      "iconColor": "bg-amber-700",
+      "bgColor": "bg-amber-50",
+      "note": "Day-old, cold",
+      "letter": "R"
+    },
+    {
+      "name": "Eggs",
+      "amount": "2",
+      "category": "protein",
+      "iconColor": "bg-yellow-600",
+      "bgColor": "bg-yellow-50",
+      "note": "Lightly beaten",
+      "letter": "E"
+    },
+    {
+      "name": "Carrots",
+      "amount": "1/2 cup",
+      "category": "vegetable",
+      "iconColor": "bg-orange-600",
+      "bgColor": "bg-orange-50",
+      "note": "Small dice",
+      "letter": "C"
+    },
+    {
+      "name": "Peas",
+      "amount": "1/2 cup",
+      "category": "vegetable",
+      "iconColor": "bg-green-600",
+      "bgColor": "bg-green-50",
+      "note": "Frozen",
+      "letter": "P"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/2 cup",
+      "category": "vegetable",
+      "iconColor": "bg-purple-500",
+      "bgColor": "bg-purple-50",
+      "note": "Diced",
+      "letter": "O"
+    },
+    {
+      "name": "Garlic",
+      "amount": "3 cloves",
+      "category": "vegetable",
+      "iconColor": "bg-green-700",
+      "bgColor": "bg-green-100",
+      "note": "Minced",
+      "letter": "G"
+    },
+    {
+      "name": "Green Onions",
+      "amount": "2",
+      "category": "vegetable",
+      "iconColor": "bg-green-800",
+      "bgColor": "bg-green-200",
+      "note": "Sliced",
+      "letter": "S"
+    },
+    {
+      "name": "Ham/Chinese Sausage",
+      "amount": "1/2 cup",
+      "category": "protein",
+      "iconColor": "bg-red-700",
+      "bgColor": "bg-red-50",
+      "note": "Optional",
+      "letter": "H"
+    },
+    {
+      "name": "Vegetable Oil",
+      "amount": "2 tbsp",
+      "category": "oil",
+      "iconColor": "bg-amber-600",
+      "bgColor": "bg-amber-100",
+      "note": "Or peanut oil",
+      "letter": "V"
+    },
+    {
+      "name": "Soy Sauce",
+      "amount": "2 tbsp",
+      "category": "seasoning",
+      "iconColor": "bg-amber-800",
+      "bgColor": "bg-amber-200",
+      "note": "Traditional",
+      "letter": "S"
+    },
+    {
+      "name": "Sesame Oil",
+      "amount": "1 tsp",
+      "category": "oil",
+      "iconColor": "bg-amber-900",
+      "bgColor": "bg-amber-50",
+      "note": "For flavor",
+      "letter": "S"
+    },
+    {
+      "name": "White Pepper",
+      "amount": "1/2 tsp",
+      "category": "seasoning",
+      "iconColor": "bg-stone-600",
+      "bgColor": "bg-stone-100",
+      "note": "To taste",
+      "letter": "P"
+    },
+    {
+      "name": "Salt",
+      "amount": "To taste",
+      "category": "seasoning",
+      "iconColor": "bg-stone-400",
+      "bgColor": "bg-stone-50",
+      "note": "If needed",
+      "letter": "S"
+    }
+  ],
+
+  "cookingSteps": [
+    {
+      "title": "Prepare Rice",
+      "time": "5 min",
+      "instructions": "If using freshly cooked rice, spread it on a baking sheet to cool completely. Ideally, use rice that has been refrigerated overnight."
+    },
+    {
+      "title": "Cook Eggs",
+      "time": "1 min",
+      "instructions": "Heat wok over high heat. Add 1 tbsp oil and swirl to coat. Pour in beaten eggs and scramble quickly until just set but still moist, about 30 seconds. Remove and set aside."
+    },
+    {
+      "title": "Sauté Vegetables",
+      "time": "3 min",
+      "instructions": "Add remaining oil to wok. Add diced onion and carrots, stir-frying for about 2 minutes until slightly softened. Add garlic and white parts of green onions, stir-frying for 30 seconds until fragrant."
+    },
+    {
+      "title": "Add Protein & Rice",
+      "time": "3-4 min",
+      "instructions": "If using ham or Chinese sausage, add to the wok and stir-fry for 1 minute. Add cold rice to the wok, breaking up any clumps with a spatula. Stir-fry for 2-3 minutes until heated through."
+    },
+    {
+      "title": "Season & Combine",
+      "time": "2-3 min",
+      "instructions": "Drizzle soy sauce and sesame oil over rice. Add white pepper and stir well. Add frozen peas, scrambled eggs, and green parts of green onions. Stir-fry for another 1-2 minutes until well combined and heated through."
+    },
+    {
+      "title": "Final Adjustments",
+      "time": "1 min",
+      "instructions": "Taste and adjust seasonings as needed, adding salt if necessary. Transfer to a serving dish and garnish with additional sliced green onions if desired."
+    }
+  ],
+
+  "equipment": ["Wok or large skillet", "Wooden spatula", "Cutting board", "Chef's knife", "Mixing bowls"],
+  "additionalNotes": "Using day-old rice is crucial for authentic fried rice texture. The characteristic 'breath of the wok' flavor comes from cooking quickly over very high heat. This is a Cantonese-style fried rice. Other regional variations might include different seasonings like oyster sauce, fish sauce, or chili paste."
+}

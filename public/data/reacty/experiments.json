@@ -1,0 +1,14 @@
+[
+  {
+    "id": "match3",
+    "name": "Match 3 Game",
+    "description": "A colorful match-three puzzle game with animations and scoring",
+    "componentPath": "match3/match3"
+  },
+  {
+    "id": "dns-migrator",
+    "name": "DNS Migration Wizard",
+    "description": "A step-by-step wizard for migrating domains from Squarespace to Cloudflare",
+    "componentPath": "dns-migrator/dns-migration-wizard"
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "materials": [
+    {
+      "id": 1,
+      "title": "White Paint",
+      "details": "FolkArt Multi-Surface Acrylic • Titanium White • 8 oz",
+      "iconName": "Droplets",
+      "color": "#4f46e5"
+    },
+    {
+      "id": 2,
+      "title": "Outdoor Medium",
+      "details": "FolkArt Outdoor Sealer • 1:1 mix ratio for first coat",
+      "iconName": "Beaker",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 3,
+      "title": "UV Sealer",
+      "details": "FolkArt Outdoor Matte Sealer (K892) • 3 coats",
+      "iconName": "Shield",
+      "color": "#22c55e"
+    },
+    {
+      "id": 4,
+      "title": "Brushes",
+      "details": "Synthetic bristle • 1\" flat and 1/4\" round",
+      "iconName": "PenTool",
+      "color": "#a855f7"
+    },
+    {
+      "id": 5,
+      "title": "Canvas",
+      "details": "Black canvas • Primed with outdoor primer",
+      "iconName": "Package",
+      "color": "#ca8a04"
+    },
+    {
+      "id": 6,
+      "title": "Sandpaper",
+      "details": "320-grit for between coats • 400-grit for final",
+      "iconName": "Wrench",
+      "color": "#ef4444"
+    },
+    {
+      "id": 7,
+      "title": "Primer",
+      "details": "FolkArt Outdoor White Primer • 2 coats",
+      "iconName": "PenTool",
+      "color": "#ec4899"
+    },
+    {
+      "id": 8,
+      "title": "Masking Tape",
+      "details": "UV-resistant outdoor painter's tape",
+      "iconName": "Package",
+      "color": "#14b8a6"
+    },
+    {
+      "id": 9,
+      "title": "Cleaning Solution",
+      "details": "Mild soap and distilled water",
+      "iconName": "Droplets",
+      "color": "#60a5fa"
+    },
+    {
+      "id": 10,
+      "title": "Varnish",
+      "details": "FolkArt Clear Outdoor Varnish • Final protection",
+      "iconName": "Shield",
+      "color": "#6b7280"
+    }
+  ],
+  "process": [
+    {
+      "id": 1,
+      "title": "Surface Prep",
+      "details": [
+        "Clean black canvas with mild soap/distilled water",
+        "Lightly sand surface with 320-grit sandpaper",
+        "Apply 2 coats of FolkArt Outdoor White Primer (4hrs between)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mix Paint",
+      "details": [
+        "For first coat: 1 part White paint : 1 part Outdoor Medium",
+        "For additional coats: Use undiluted FolkArt Multi-Surface White",
+        "Stir thoroughly but gently to avoid bubbles"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Apply Paint",
+      "details": [
+        "Use synthetic brushes (1\" flat for fill, 1/4\" round for detail)",
+        "Apply 3-4 thin coats (2hrs between in warm weather)",
+        "Sand very lightly with 400-grit between final coats"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Seal Surface",
+      "details": [
+        "Wait 24hrs after final paint coat",
+        "Apply 3 thin coats of FolkArt Outdoor Matte Sealer (4hrs between)",
+        "Top with FolkArt Clear Outdoor Varnish after 24hrs",
+        "Allow 7 days full cure before outdoor exposure"
+      ]
+    }
+  ],
+  "techniques": [
+    {
+      "id": 1,
+      "title": "Brush Selection",
+      "detail": "Synthetic bristle brushes prevent water absorption. Use flat brushes for coverage and round for detail. Clean immediately with warm soapy water."
+    },
+    {
+      "id": 2,
+      "title": "Stenciling",
+      "detail": "Secure with UV-resistant outdoor painter's tape. Apply paint with a dabbing motion. Remove tape while paint is still slightly wet to prevent peeling."
+    },
+    {
+      "id": 3,
+      "title": "Layering",
+      "detail": "Multiple thin coats provide better durability than one thick coat. Apply in cross-direction (first horizontal, then vertical) for even coverage on black canvas."
+    },
+    {
+      "id": 4,
+      "title": "Edge Treatment",
+      "detail": "Extend paint and sealer 1/4\" over canvas edges for complete weather protection. Seal all exposed areas including back if fully outdoor exposed."
+    }
+  ],
+  "maintenance": [
+    "Inspect quarterly for the first year, then bi-annually",
+    "Clean gently with soft brush and mild soap solution",
+    "Avoid pressure washing or abrasive cleaners",
+    "Apply touch-up paint and additional sealer coat annually",
+    "Store indoors or cover during extreme weather if possible"
+  ],
+  "references": [
+    {
+      "text": "FolkArt Multi-Surface Acrylic Paint specifications",
+      "url": "https://plaidonline.com/products/folkart-multi-surface-acrylic-paint"
+    },
+    {
+      "text": "FolkArt Outdoor Sealer application guide",
+      "url": "https://plaidonline.com/products/folkart-outdoor-sealer"
+    },
+    {
+      "text": "FolkArt Outdoor Varnish technical data",
+      "url": "https://plaidonline.com/products/folkart-outdoor-varnish"
+    },
+    {
+      "text": "Plaid Enterprises outdoor painting guide",
+      "url": "https://plaidonline.com/outdoor-painting-guide"
+    }
+  ]
+}

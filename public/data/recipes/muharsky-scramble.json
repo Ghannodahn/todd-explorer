@@ -1,0 +1,78 @@
+{
+  "title": "Curried Pantry Breakfast Scramble",
+  "subtitle": "Fusion Breakfast Bowl",
+  "description": "A flavorful breakfast scramble featuring freshly air-fried chicken nuggets and brussels sprouts with a savory curry twist",
+
+  "ingredients": [
+    { "name": "Eggs", "amount": "2", "category": "protein", "iconColor": "bg-amber-600", "bgColor": "bg-amber-100", "note": "Base", "letter": "E" },
+    { "name": "Chicken Nuggets", "amount": "6", "category": "protein", "iconColor": "bg-red-700", "bgColor": "bg-rose-100", "note": "Frozen, air-fried", "letter": "C" },
+    { "name": "Brussels Sprouts", "amount": "6", "category": "vegetable", "iconColor": "bg-green-700", "bgColor": "bg-green-100", "note": "Large, whole", "letter": "B" },
+    { "name": "Black Beans", "amount": "1/3 cup", "category": "legume", "iconColor": "bg-stone-800", "bgColor": "bg-slate-200", "note": "Drained", "letter": "B" },
+    { "name": "Baby Spinach", "amount": "1 cup", "category": "vegetable", "iconColor": "bg-emerald-600", "bgColor": "bg-teal-100", "note": "Fresh", "letter": "S" },
+    { "name": "Garlic", "amount": "1-2 cloves", "category": "seasoning", "iconColor": "bg-stone-600", "bgColor": "bg-zinc-100", "note": "Minced", "letter": "G" },
+    { "name": "Curry Powder", "amount": "1/2 tsp", "category": "seasoning", "iconColor": "bg-yellow-600", "bgColor": "bg-yellow-100", "note": "For flavor", "letter": "C" },
+    { "name": "Cumin", "amount": "1/4 tsp", "category": "seasoning", "iconColor": "bg-amber-700", "bgColor": "bg-orange-100", "note": "For flavor", "letter": "C" },
+    { "name": "Olive Oil", "amount": "1 tbsp", "category": "fat", "iconColor": "bg-amber-500", "bgColor": "bg-lime-100", "note": "For cooking", "letter": "O" },
+    { "name": "Butter", "amount": "1 tbsp", "category": "fat", "iconColor": "bg-yellow-500", "bgColor": "bg-amber-100", "note": "For cooking", "letter": "B" },
+    { "name": "Salt & Pepper", "amount": "To taste", "category": "seasoning", "iconColor": "bg-gray-600", "bgColor": "bg-blue-50", "note": "To taste", "letter": "S" }
+  ],
+
+  "cookingSteps": [
+    {
+      "title": "Air Fry",
+      "time": "10-12 min",
+      "instructions": "Air fry the 6 frozen chicken nuggets according to package directions. In the last 8 minutes, add the 6 large brussels sprouts to the air fryer, seasoned with a little olive oil, salt and pepper."
+    },
+    {
+      "title": "Prep Ingredients",
+      "time": "5 min",
+      "instructions": "While items are air frying, drain and rinse black beans. Mince garlic. Quarter the air-fried brussels sprouts and chop the chicken nuggets into bite-sized pieces once done."
+    },
+    {
+      "title": "Beat Eggs",
+      "time": "1 min",
+      "instructions": "In a bowl, beat the 2 eggs with salt, pepper, curry powder, and cumin until well combined."
+    },
+    {
+      "title": "Heat Pan",
+      "time": "1 min",
+      "instructions": "Heat a large skillet over medium heat. Add olive oil and butter to the pan and let the butter melt completely."
+    },
+    {
+      "title": "Add Aromatics",
+      "time": "1 min",
+      "instructions": "Add minced garlic to the pan and sauté until fragrant, about 30 seconds."
+    },
+    {
+      "title": "Combine Ingredients",
+      "time": "2 min",
+      "instructions": "Add chopped air-fried chicken, brussels sprouts, and black beans to the pan. Stir to combine and heat through."
+    },
+    {
+      "title": "Add Spinach",
+      "time": "1 min",
+      "instructions": "Add baby spinach to the pan and stir until just beginning to wilt."
+    },
+    {
+      "title": "Cook Eggs",
+      "time": "2-3 min",
+      "instructions": "Pour the beaten egg mixture into the pan. Let sit for 30 seconds, then gently fold and stir as they begin to set."
+    },
+    {
+      "title": "Finish & Serve",
+      "time": "1 min",
+      "instructions": "When eggs are just set but still slightly moist, remove from heat. Adjust seasonings to taste and serve immediately."
+    }
+  ],
+
+  "equipment": [
+    "Air fryer",
+    "Large skillet",
+    "Mixing bowl",
+    "Whisk or fork",
+    "Cutting board",
+    "Knife"
+  ],
+
+  "additionalNotes": "This recipe makes great use of your air fryer for both the chicken nuggets and brussels sprouts. The curry and cumin add warm, earthy notes that complement the robust flavors of the crispy air-fried ingredients."
+}
