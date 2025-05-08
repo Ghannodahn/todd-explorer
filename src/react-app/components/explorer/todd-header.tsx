@@ -33,11 +33,15 @@ const Header: React.FC = () => {
 
   // Load prototypes from JSON file
   useEffect(() => {
-    // Using dynamic import for JSON instead of fetch
-    import('../../../../public/data/prototypes.json')
-      .then((data) => {
-        const prototypesData = data.default
-
+    // Using fetch instead of dynamic import
+    fetch('/data/prototypes.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok')
+        }
+        return response.json()
+      })
+      .then((prototypesData) => {
         // Update the Prototypes menu with data from JSON
         setNavItems((prevItems) =>
           prevItems.map((item) =>

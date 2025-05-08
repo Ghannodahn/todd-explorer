@@ -3,30 +3,30 @@
     "id": "fried-rice",
     "title": "Fried Rice",
     "category": "One-Pot Main Dish",
-    "url": "/TODD/data/recipes/fried-rice-recipe.json"
+    "url": "/data/recipes/fried-rice-recipe.json"
   },
   {
     "id": "curried-chicken-slider",
     "title": "Curried Chicken Sliders",
     "category": "Indian-Spiced Appetizer",
-    "url": "/TODD/data/recipes/curried-chicken-slider-recipe.json"
+    "url": "/data/recipes/curried-chicken-slider-recipe.json"
   },
   {
     "id": "mushroom-spinach-roulade",
     "title": "Mushroom and Spinach Roulade",
     "category": "Vegetarian Main Dish",
-    "url": "/TODD/data/recipes/mushroom-spinach-roulade-recipe.json"
+    "url": "/data/recipes/mushroom-spinach-roulade-recipe.json"
   },
   {
     "id": "chili-verde",
     "title": "Chicken Chili Verde",
     "category": "Southwestern-Inspired Dish",
-    "url": "/TODD/data/recipes/chili-verde.json"
+    "url": "/data/recipes/chili-verde.json"
   },
   {
     "id": "muharsky-scramble",
     "title": "Muharsky Breakfast Scramble",
     "category": "Fusion Breakfast Bowl",
-    "url": "/TODD/data/recipes/muharsky-scramble.json"
+    "url": "/data/recipes/muharsky-scramble.json"
   }
 ]

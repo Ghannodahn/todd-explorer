@@ -15,10 +15,16 @@ const TODDHomepage = () => {
 
   // Load prototypes from JSON file
   useEffect(() => {
-    // Using dynamic import for JSON
-    import('../../../../public/data/prototypes.json')
+    // Using fetch instead of dynamic import
+    fetch('/data/prototypes.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok')
+        }
+        return response.json()
+      })
       .then((data) => {
-        setPrototypes(data.default)
+        setPrototypes(data)
       })
       .catch((error) => {
         console.error('Failed to load prototypes data:', error)
