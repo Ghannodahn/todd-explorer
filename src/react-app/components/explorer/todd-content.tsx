@@ -6,7 +6,7 @@ import PromptyHomepage from '../prompty/prompty-home'
 import Home from './todd-home'
 //import ArtyExample from 'prototypes/Arty/arty-example'
 //import Reacty from 'prototypes/Reacty/reacty'
-//import PromptyMcProjectFace from 'prototypes/Prompty/projectface/prompty-gptproject'
+//import PromptyMcProjectFace from 'prototypes/prompty/projectface/prompty-gptproject'
 
 const Content: React.FC = () => {
   return (
