@@ -1,4 +1,4 @@
-import React, { useState, useCallback, memo } from 'react'
+import React, { useState, useCallback, memo, JSX } from 'react'
 import styles from './match3.module.css'
 
 // TypeScript type definitions
