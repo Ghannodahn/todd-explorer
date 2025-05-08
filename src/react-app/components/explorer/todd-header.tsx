@@ -101,7 +101,7 @@ const Header: React.FC = () => {
   return (
     <header className="flex items-center justify-between bg-gray-100 p-4 shadow-md">
       <div className="text-xl font-bold">
-        <a href="/TODD/">TODD</a>
+        <a href="/">TODD</a>
       </div>
       <nav>
         <ul className="flex space-x-4">

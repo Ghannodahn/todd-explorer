@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-//import ToddComponentViewer from '../../prototypes/modely/modely'
+import ToddComponentViewer from '../../prototypes/modely/modely'
 import TODDRecipeViewer from '../../prototypes/recipes/todd-recipes'
 import PromptyHomepage from '../prompty/prompty-home'
 import Home from './todd-home'
@@ -10,7 +10,7 @@ import PromptyMcProjectFace from '../../prototypes/prompty/projectface/prompty-g
 
 const Content: React.FC = () => {
   return (
-    <div
+    <div className="bg-gradient-to-b from-green-900 to-green-800 p-6"
       style={{
         display: 'flex',
         flexDirection: 'column',
@@ -25,6 +25,7 @@ const Content: React.FC = () => {
         <Route path="/arty" element={<ArtyExample />} />
         <Route path="/prompty/gptproject" element={<PromptyMcProjectFace />} />
         <Route path="/reacty" element={<Reacty />} />
+        <Route path="/modely" element={<ToddComponentViewer />} />
         
         <Route
           path="/*"
