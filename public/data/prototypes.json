@@ -3,7 +3,7 @@
     "iconName": "Zap",
     "title": "Prompty McProjectFace",
     "description": "Transform your ideas into well-structured project instructions for AI platforms",
-    "path": "/prompty-gptproject"
+    "path": "/prompty/gptproject"
   },
   {
     "iconName": "FileText",
