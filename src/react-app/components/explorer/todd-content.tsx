@@ -5,7 +5,7 @@ import TODDRecipeViewer from '../../prototypes/recipes/todd-recipes'
 import PromptyHomepage from '../prompty/prompty-home'
 import Home from './todd-home'
 import ArtyExample from '../../prototypes/arty/arty-example'
-//import Reacty from 'prototypes/reacty/reacty'
+import Reacty from '../../prototypes/reacty/reacty'
 import PromptyMcProjectFace from '../../prototypes/prompty/projectface/prompty-gptproject'
 
 const Content: React.FC = () => {
@@ -24,6 +24,7 @@ const Content: React.FC = () => {
         <Route path="/recipes/*" element={<TODDRecipeViewer />} />
         <Route path="/arty" element={<ArtyExample />} />
         <Route path="/prompty/gptproject" element={<PromptyMcProjectFace />} />
+        <Route path="/reacty" element={<Reacty />} />
         
         <Route
           path="/*"
