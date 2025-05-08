@@ -3,11 +3,8 @@ import Header from './components/explorer/todd-header'
 import Content from './components/explorer/todd-content'
 
 function App() {
-  // Only use basename in production
-  const basename = import.meta.env.PROD ? '/TODD' : '/'
-
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <div
         className="app"
         style={{
