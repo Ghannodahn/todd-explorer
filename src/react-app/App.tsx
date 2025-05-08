@@ -5,7 +5,8 @@ function App() {
     <div className="coming-soon-container">
       <div className="content">
         <h1 className="title">Todd Explorer</h1>
-        <div className="splash-banner">Coming Soon</div>
+        <div className="splash-banner text-yellow-500">Coming Soon</div>
+        <div className="text-blue-500">... or is it?</div>
         
         <p className="description">
           We're working on something exciting. Stay tuned for an amazing
