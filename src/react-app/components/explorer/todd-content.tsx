@@ -4,8 +4,8 @@ import { Routes, Route } from 'react-router-dom'
 import TODDRecipeViewer from '../../prototypes/recipes/todd-recipes'
 import PromptyHomepage from '../prompty/prompty-home'
 import Home from './todd-home'
-//import ArtyExample from 'prototypes/Arty/arty-example'
-//import Reacty from 'prototypes/Reacty/reacty'
+import ArtyExample from '../../prototypes/arty/arty-example'
+//import Reacty from 'prototypes/reacty/reacty'
 //import PromptyMcProjectFace from 'prototypes/prompty/projectface/prompty-gptproject'
 
 const Content: React.FC = () => {
@@ -22,6 +22,7 @@ const Content: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/prompty" element={<PromptyHomepage />} />
         <Route path="/recipes/*" element={<TODDRecipeViewer />} />
+        <Route path="/arty" element={<ArtyExample />} />
  
         <Route
           path="/*"
