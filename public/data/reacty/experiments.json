@@ -15,6 +15,12 @@
     "id": "prompty-builder",
     "name": "Prompty Builder",
     "description": "A prompt optimizer that combines guidance and generation",
-    "componentPath": "prompty-builder/prompty-builder"
+    "componentPath": "prompty/prompty-builder"
+  },
+  {
+    "id": "token-optimization-info",
+    "name": "Token Optimization Infographic",
+    "description": "An infographic that describes principles of efficient prompting",
+    "componentPath": "prompty/token-efficiency-infographic"
   }
 ]

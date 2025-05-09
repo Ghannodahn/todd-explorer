@@ -9,7 +9,7 @@ body {
 }
 
 @layer components {
-  .app {
+  .todd-app {
     height: 100vh; /* Use vh for viewport height */
     width: 100vw;
     overflow: hidden;
@@ -19,14 +19,14 @@ body {
 
     @apply bg-red-500;
   }
-  .header {
+  .todd-header {
     height: 100px;
     flex-shrink: 0; /* Prevent shrinking */
     flex-grow: 0;
 
     @apply bg-blue-500;
   }
-  .content {
+  .todd-content {
     flex-grow: 1; /* Take remaining space */
     overflow: auto; /* Allow vertical scrolling if needed */
 

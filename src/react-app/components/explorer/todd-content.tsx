@@ -10,7 +10,7 @@ import PromptyMcProjectFace from '../../prototypes/prompty/projectface/prompty-g
 
 const Content: React.FC = () => {
   return (
-    <div className="bg-gradient-to-b from-green-900 to-green-800 p-6"
+    <div className="bg-gradient-to-b from-green-900 to-green-800"
       style={{
         display: 'flex',
         flexDirection: 'column',

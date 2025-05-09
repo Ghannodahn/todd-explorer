@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <div
-        className="app"
+        className="todd-app"
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -16,7 +16,7 @@ function App() {
       >
         <Header />
         <div
-          className="content"
+          className="todd-content"
           style={{
             flex: '1 1 auto',
             display: 'flex',

@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import Match3Game from './experiments/match3/match3'
 import DNSMigrationWizard from './experiments/dns-migrator/dns-migration-wizard'
-import PromptyBuilder from './experiments/prompty-builder/prompty-builder'
+import PromptyBuilder from './experiments/prompty/prompty-builder'
 import ReactyNav from './reacty-nav'
 import ReactyContent from './reacty-content'
 import { Experiment, ExperimentData } from './types'
+import TokenEfficiencyInfographic from './experiments/prompty/token-efficiency-infographic'
 
 // Component mapping to be used for dynamic imports
 const componentMap: Record<string, React.ComponentType> = {
   'match3/match3': Match3Game,
   'dns-migrator/dns-migration-wizard': DNSMigrationWizard,
-  'prompty-builder/prompty-builder': PromptyBuilder
+  'prompty/prompty-builder': PromptyBuilder,
+  'prompty/token-efficiency-infographic': TokenEfficiencyInfographic
 }
 
 const Reacty: React.FC = () => {
