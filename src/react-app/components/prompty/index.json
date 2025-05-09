@@ -4,7 +4,7 @@
     "id": "promptface",
     "name": "Prompty McPromptFace",
     "description": "Your expert prompt writing companion. Craft clear, detailed, and effective prompts for any AI model.",
-    "icon": "/data/prompty/prompty-prompt.character.png",
+    "icon": "/data/prompty/prompty-prompt-200.character.png",
     "colorClass": "teal-spark",
     "features": [
       "Expert prompt structure guidance",
@@ -18,7 +18,7 @@
     "id": "projectface",
     "name": "Prompty McProjectFace",
     "description": "Structure your AI projects with precision. Create instruction sets that ensure consistent, professional AI task execution.",
-    "icon": "/data/prompty/prompty-gptproject.character.png",
+    "icon": "/data/prompty/prompty-gptproject-200.character.png",
     "colorClass": "indigo-beam",
     "features": [
       "Standardized project instruction frameworks",
@@ -32,7 +32,7 @@
     "id": "journeyface",
     "name": "Prompty McJourneyFace",
     "description": "Master visual prompt engineering for Midjourney and other image generators with precision and creativity.",
-    "icon": "/data/prompty/prompty-image.character.png",
+    "icon": "/data/prompty/prompty-image-200.character.png",
     "colorClass": "fuchsia-pulse",
     "features": [
       "Optimized Midjourney parameter formatting",
@@ -46,7 +46,7 @@
     "id": "researchface",
     "name": "Prompty McResearchFace",
     "description": "Conduct deeper research with AI. Create structured prompts that unlock advanced knowledge exploration.",
-    "icon": "/data/prompty/prompty-research.character.png",
+    "icon": "/data/prompty/prompty-research-200.character.png",
     "colorClass": "amber-focus",
     "features": [
       "Domain-specific context anchoring",
