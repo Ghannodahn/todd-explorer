@@ -10,5 +10,11 @@
     "name": "DNS Migration Wizard",
     "description": "A step-by-step wizard for migrating domains from Squarespace to Cloudflare",
     "componentPath": "dns-migrator/dns-migration-wizard"
+  },
+  {
+    "id": "prompty-builder",
+    "name": "Prompty Builder",
+    "description": "A prompt optimizer that combines guidance and generation",
+    "componentPath": "prompty-builder/prompty-builder"
   }
 ]
