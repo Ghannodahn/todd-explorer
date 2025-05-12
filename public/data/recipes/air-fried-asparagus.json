@@ -1,0 +1,100 @@
+{
+    "title": "Crispy Air-Fried Asparagus",
+    "subtitle": "Quick & Healthy Side",
+    "description": "Tender asparagus spears crisped in the air fryer with a bright touch of garlic, lemon, and optional Parmesan.",
+    "ingredients": [
+      {
+        "name": "Asparagus",
+        "amount": "1/2 lb, 15-20 stalks",
+        "category": "vegetable",
+        "iconColor": "bg-green-700",
+        "bgColor": "bg-green-50",
+        "note": "Tough ends trimmed (about 15-20 average-size stalks)",
+        "letter": "A"
+      },
+      {
+        "name": "Olive Oil",
+        "amount": "1 tbsp",
+        "category": "oil",
+        "iconColor": "bg-amber-600",
+        "bgColor": "bg-amber-50",
+        "note": "Extra-virgin",
+        "letter": "O"
+      },
+      {
+        "name": "Garlic Powder",
+        "amount": "1/4 tsp",
+        "category": "seasoning",
+        "iconColor": "bg-stone-600",
+        "bgColor": "bg-stone-100",
+        "note": "Optional",
+        "letter": "G"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp",
+        "category": "seasoning",
+        "iconColor": "bg-stone-400",
+        "bgColor": "bg-stone-50",
+        "note": "To taste",
+        "letter": "S"
+      },
+      {
+        "name": "Black Pepper",
+        "amount": "1/8 tsp",
+        "category": "seasoning",
+        "iconColor": "bg-stone-800",
+        "bgColor": "bg-stone-200",
+        "note": "Freshly ground",
+        "letter": "P"
+      },
+      {
+        "name": "Lemon",
+        "amount": "1/2",
+        "category": "fruit",
+        "iconColor": "bg-yellow-600",
+        "bgColor": "bg-yellow-50",
+        "note": "Cut into wedges for serving",
+        "letter": "L"
+      },
+      {
+        "name": "Parmesan Cheese",
+        "amount": "2 tbsp",
+        "category": "dairy",
+        "iconColor": "bg-blue-600",
+        "bgColor": "bg-blue-50",
+        "note": "Freshly grated, optional",
+        "letter": "P"
+      }
+    ],
+    "cookingSteps": [
+      {
+        "title": "Preheat Air Fryer",
+        "time": "3 min",
+        "instructions": "Preheat the air fryer to 400 °F (200 °C)."
+      },
+      {
+        "title": "Season Asparagus",
+        "time": "2 min",
+        "instructions": "In a bowl, toss trimmed asparagus with olive oil, garlic powder (if using), salt, and pepper until evenly coated."
+      },
+      {
+        "title": "Air Fry",
+        "time": "6–8 min",
+        "instructions": "Arrange asparagus in a single layer in the air-fryer basket. Cook for 6–8 minutes, shaking halfway, until tender-crisp and lightly browned."
+      },
+      {
+        "title": "Finish & Serve",
+        "time": "1 min",
+        "instructions": "Transfer to a serving plate. Squeeze lemon juice over the asparagus and sprinkle with Parmesan, if desired. Serve immediately."
+      }
+    ],
+    "equipment": [
+      "Air fryer",
+      "Mixing bowl",
+      "Tongs",
+      "Serving plate"
+    ],
+    "additionalNotes": "Cooking time may vary with spear thickness. For extra crunch, sprinkle 1 tbsp breadcrumbs over the asparagus before air-frying."
+  }
+  

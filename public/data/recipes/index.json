@@ -1,5 +1,11 @@
 [
   {
+    "id": "air-fried-asparagus",
+    "title": "Crispy Air-Fried Asparagus",
+    "category": "Healthy Side Dish",
+    "url": "/data/recipes/air-fried-asparagus.json"
+  },
+  {
     "id": "fried-rice",
     "title": "Fried Rice",
     "category": "One-Pot Main Dish",

@@ -7,6 +7,7 @@ import Home from './todd-home'
 import ArtyExample from '../../prototypes/arty/arty-example'
 import Reacty from '../../prototypes/reacty/reacty'
 import PromptyMcProjectFace from '../../prototypes/prompty/projectface/prompty-gptproject'
+import AmwayyComponentViewer from '../../prototypes/amwayy/amwayy'
 
 const Content: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ const Content: React.FC = () => {
         <Route path="/prompty/gptproject" element={<PromptyMcProjectFace />} />
         <Route path="/reacty" element={<Reacty />} />
         <Route path="/modely" element={<ToddComponentViewer />} />
+        <Route path="/amwayy" element={<AmwayyComponentViewer />} />
         
         <Route
           path="/*"

@@ -28,5 +28,11 @@
     "title": "Modely",
     "description": "Visual design modeling tool for creating Entity Relationship diagrams and other structured visual schemas",
     "path": "/modely"
+  },
+  {
+    "iconName": "Brain",
+    "title": "Amwayy",
+    "description": "Tools and insights for Amway distributors.",
+    "path": "/amwayy"
   }
 ]
