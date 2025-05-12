@@ -15,6 +15,7 @@
     "dash": true
   },
   "dependencies": {
+    "@types/marked": "^5.0.2",
     "hono": "4.7.7",
     "JSX": "^1.1.0",
     "lucide-react": "^0.508.0",
@@ -52,7 +53,8 @@
     "deploy": "npm run build && wrangler deploy",
     "dev": "vite",
     "lint": "eslint .",
-    "preview": "npm run build && vite preview"
+    "preview": "npm run build && vite preview",
+    "build:watch": "tsc -b --watch & vite build --watch"
   },
   "type": "module"
 }

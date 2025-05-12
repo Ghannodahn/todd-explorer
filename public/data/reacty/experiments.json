@@ -9,7 +9,8 @@
     "id": "dns-migrator",
     "name": "DNS Migration Wizard",
     "description": "A step-by-step wizard for migrating domains from Squarespace to Cloudflare",
-    "componentPath": "dns-migrator/dns-migration-wizard"
+    "componentPath": "dns-migrator/dns-migration-wizard",
+    "documentUrl": "/data/reacty/experiments/dns-migrator.md"
   },
   {
     "id": "prompty-builder",

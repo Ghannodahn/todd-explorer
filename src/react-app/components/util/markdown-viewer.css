@@ -22,19 +22,36 @@
     margin-bottom: 1rem;
 }
 
+
+.markdown-content h5 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.markdown-content h6 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .markdown-content p {
     margin-bottom: 1rem;
 }
 
-.markdown-content > ul {
-    list-style: circle;
-    margin: auto;
-    padding: auto;
+.markdown-content ul {
+    list-style: disc;
+    margin-bottom: 1rem;
 }
 
 .markdown-content li {
-    margin: auto;
-    padding: auto;
+    margin-left: 2rem;
+    padding-left: 0;
+}
+
+.markdown-content code {
+    margin-bottom: 1rem;
+
 }
 
 .markdown-content table {

@@ -6,6 +6,7 @@ import ReactyNav from './reacty-nav'
 import ReactyContent from './reacty-content'
 import { Experiment, ExperimentData } from './types'
 import TokenEfficiencyInfographic from './experiments/prompty/token-efficiency-infographic'
+import MarkdownViewer from '../../components/util/markdown-viewer'
 
 // Component mapping to be used for dynamic imports
 const componentMap: Record<string, React.ComponentType> = {
@@ -38,7 +39,8 @@ const Reacty: React.FC = () => {
             id: exp.id,
             name: exp.name,
             description: exp.description,
-            component: componentMap[exp.componentPath]
+            component: componentMap[exp.componentPath],
+            documentUrl: exp.documentUrl
           })
         )
         setExperiments(processedExperiments)
@@ -53,6 +55,7 @@ const Reacty: React.FC = () => {
     (exp) => exp.id === selectedExperiment
   )
 
+  console.log('currentExperiment:', currentExperiment);
   return (
     <div
       style={{
@@ -72,6 +75,12 @@ const Reacty: React.FC = () => {
 
       {/* Main Content Area */}
       <ReactyContent currentExperiment={currentExperiment} />
+
+      {/* Prompt Area */}
+      <div className="bg-white p-4 w-[300px] overflow-auto">
+        <MarkdownViewer contentUrl={currentExperiment?.documentUrl}
+          content="No data found." />
+      </div>
     </div>
   )
 }

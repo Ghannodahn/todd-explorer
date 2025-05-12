@@ -3,6 +3,7 @@ export interface ExperimentData {
   name: string
   description: string
   componentPath: string
+  documentUrl: string
 }
 
 export interface Experiment {
@@ -10,4 +11,5 @@ export interface Experiment {
   name: string
   description: string
   component: React.ComponentType
+  documentUrl: string
 }

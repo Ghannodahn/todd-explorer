@@ -41,7 +41,7 @@ const ReactyNav: React.FC<ReactyNavProps> = ({
         >
           React Experiments
         </h2>
-        <ul style={{ listStyle: 'none', padding: 0 }}>
+        <ul style={{ listStyle: 'none' }}>
           {experiments.map((experiment) => (
             <li
               key={experiment.id}
