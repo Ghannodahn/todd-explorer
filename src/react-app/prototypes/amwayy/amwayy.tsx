@@ -7,7 +7,6 @@ import AmwayBusinessStrategy from './amway-business-strategy.md?raw';
 import PVBVExplainer from './pv-bv-explainer';
 import AmwaySuccessPathways from './amway-success-pathways';
 import { marked } from 'marked';
-import './amwayy.css';
 
 // Define content types
 type ContentItem = {

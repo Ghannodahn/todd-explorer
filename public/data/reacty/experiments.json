@@ -3,25 +3,28 @@
     "id": "match3",
     "name": "Match 3 Game",
     "description": "A colorful match-three puzzle game with animations and scoring",
-    "componentPath": "match3/match3"
+    "componentPath": "match3/match3",
+    "documentUrl": "/data/reacty/experiments/match3-game-prompt.md"
   },
   {
     "id": "dns-migrator",
     "name": "DNS Migration Wizard",
     "description": "A step-by-step wizard for migrating domains from Squarespace to Cloudflare",
     "componentPath": "dns-migrator/dns-migration-wizard",
-    "documentUrl": "/data/reacty/experiments/dns-migrator.md"
+    "documentUrl": "/data/reacty/experiments/dns-migrator-prompt.md"
   },
   {
     "id": "prompty-builder",
     "name": "Prompty Builder",
     "description": "A prompt optimizer that combines guidance and generation",
-    "componentPath": "prompty/prompty-builder"
+    "componentPath": "prompty/prompty-builder",
+    "documentUrl": "/data/reacty/experiments/prompty-builder.md"
   },
   {
     "id": "token-optimization-info",
     "name": "Token Optimization Infographic",
     "description": "An infographic that describes principles of efficient prompting",
-    "componentPath": "prompty/token-efficiency-infographic"
+    "componentPath": "prompty/token-efficiency-infographic",
+    "documentUrl": "/data/reacty/experiments/token-efficiency-infographic-prompt.md"
   }
 ]

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Match3Game from './experiments/match3/match3'
 import DNSMigrationWizard from './experiments/dns-migrator/dns-migration-wizard'
 import PromptyBuilder from './experiments/prompty/prompty-builder'
@@ -7,6 +7,8 @@ import ReactyContent from './reacty-content'
 import { Experiment, ExperimentData } from './types'
 import TokenEfficiencyInfographic from './experiments/prompty/token-efficiency-infographic'
 import MarkdownViewer from '../../components/util/markdown-viewer'
+import Resizer from '../../components/util/resizer'
+import './reacty.css'
 
 // Component mapping to be used for dynamic imports
 const componentMap: Record<string, React.ComponentType> = {
@@ -22,6 +24,12 @@ const Reacty: React.FC = () => {
     null
   )
   const [experiments, setExperiments] = useState<Experiment[]>([])
+  // Initialize prompt area width from localStorage or default to 1/3 of viewport width
+  const [promptAreaWidth, setPromptAreaWidth] = useState(() => {
+    const savedWidth = localStorage.getItem('promptAreaWidth')
+    return savedWidth ? parseInt(savedWidth, 10) : window.innerWidth / 3
+  })
+  const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     // Fetch experiments data using fetch API instead of import
@@ -55,9 +63,9 @@ const Reacty: React.FC = () => {
     (exp) => exp.id === selectedExperiment
   )
 
-  console.log('currentExperiment:', currentExperiment);
   return (
     <div
+      ref={containerRef}
       style={{
         display: 'flex',
         flexDirection: 'row',
@@ -76,11 +84,37 @@ const Reacty: React.FC = () => {
       {/* Main Content Area */}
       <ReactyContent currentExperiment={currentExperiment} />
 
+      {/* Resize Handle */}
+      <Resizer 
+        initialWidth={promptAreaWidth}
+        onWidthChange={(newWidth) => {
+          // Only update state when drag ends to avoid excessive rerenders
+          setPromptAreaWidth(newWidth)
+          // Save to localStorage for persistence between sessions
+          localStorage.setItem('promptAreaWidth', newWidth.toString())
+        }}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
+        navWidth={containerRef.current?.firstChild?.nodeType === 1 
+          ? (containerRef.current?.firstChild as HTMLElement).offsetWidth 
+          : 0}
+      />
+
       {/* Prompt Area */}
-      <div className="bg-white p-4 w-[300px] overflow-auto">
-        <MarkdownViewer contentUrl={currentExperiment?.documentUrl}
-          content="No data found." />
-      </div>
+      {promptAreaWidth > 50 && currentExperiment && currentExperiment.documentUrl && (
+        <div 
+          className="bg-white p-4 overflow-auto"
+          style={{ 
+            width: `${promptAreaWidth}px`,
+            // Remove transition to avoid fighting with direct DOM manipulation during drag
+            // transition: 'width 0.1s ease-out'
+          }}
+        >
+            <MarkdownViewer 
+              contentUrl={currentExperiment.documentUrl}
+              content="No data found." 
+            />
+        </div>
+      )}
     </div>
   )
 }
