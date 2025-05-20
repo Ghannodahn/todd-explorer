@@ -1,4 +1,5 @@
 # AI Tools
+
 | Tool/Service | Purpose | Plan | Monthly Cost |
 |--------------|---------|------|-------------|
 | Claude (Pro) | AI assistant for complex tasks | Primary AI for research & analysis | $25 |
@@ -9,6 +10,7 @@
 | Perplexity | AI search engine | Real-time research & fact checking | $20 |
 
 # Productivity Tools
+
 | Tool/Service | Purpose | Plan | Monthly Cost |
 |--------------|---------|------|-------------|
 | Canva | Graphic design platform | Design templates & visual content | $15 |
