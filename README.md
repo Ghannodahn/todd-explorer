@@ -1,83 +1,37 @@
-# React + Vite + Hono + Cloudflare Workers
+# TODD (Tool-Orchestrated Development and Diagnostics)
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/vite-react-template)
+Welcome to TODD, your comprehensive suite of development and diagnostic tools designed to enhance productivity and streamline workflows.
 
-This template provides a minimal setup for building a React application with TypeScript and Vite, designed to run on Cloudflare Workers. It features hot module replacement, ESLint integration, and the flexibility of Workers deployments.
+## Core Applications
 
-![React + TypeScript + Vite + Cloudflare Workers](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/fc7b4b62-442b-4769-641b-ad4422d74300/public)
+### Prompty
+Optimize and refine your prompts for AI interactions with advanced analysis and suggestion tools.
 
-<!-- dash-content-start -->
+### Rhombus
+Powerful data analytics and management platform focused on Square and other retail POS data structures and visualization.
 
-🚀 Supercharge your web development with this powerful stack:
+### Modely
+Interactive diagram and entity modeling tool with intuitive read/write capabilities for system design.
 
-- [**React**](https://react.dev/) - A modern UI library for building interactive interfaces
-- [**Vite**](https://vite.dev/) - Lightning-fast build tooling and development server
-- [**Hono**](https://hono.dev/) - Ultralight, modern backend framework
-- [**Cloudflare Workers**](https://developers.cloudflare.com/workers/) - Edge computing platform for global deployment
+### Arena
+Compare and analyze outputs from different models and solutions in a controlled testing environment.
 
-### ✨ Key Features
+### Tooly
+Automated tool builder for creating custom development utilities and workflows.
 
-- 🔥 Hot Module Replacement (HMR) for rapid development
-- 📦 TypeScript support out of the box
-- 🛠️ ESLint configuration included
-- ⚡ Zero-config deployment to Cloudflare's global network
-- 🎯 API routes with Hono's elegant routing
-- 🔄 Full-stack development setup
+## Specialized Solutions
 
-Get started in minutes with local development or deploy directly via the Cloudflare dashboard. Perfect for building modern, performant web applications at the edge.
+### Boothy
+Streamline vendor booth operations with our comprehensive management solution for running vendor and food booths at events and trade shows.
 
-<!-- dash-content-end -->
+### Eventy
+Your AI-powered event production assistant, handling scheduling, logistics, and coordination seamlessly.
+
+### ImaGenation
+Unleash creativity with our character and story ideation platform for writers and content creators.
+
+### Perspector
+Enhance discussions with our intelligent conversation and debate assistant for balanced perspectives.
 
 ## Getting Started
-
-To start a new project with this template, run:
-
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/vite-react-template
-```
-
-A live deployment of this template is available at:
-[https://react-vite-template.templates.workers.dev](https://react-vite-template.templates.workers.dev)
-
-## Development
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server with:
-
-```bash
-npm run dev
-```
-
-Your application will be available at [http://localhost:5173](http://localhost:5173).
-
-## Production
-
-Build your project for production:
-
-```bash
-npm run build
-```
-
-Preview your build locally:
-
-```bash
-npm run preview
-```
-
-Deploy your project to Cloudflare Workers:
-
-```bash
-npx wrangler deploy
-```
-
-## Additional Resources
-
-- [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Documentation](https://reactjs.org/)
-- [Hono Documentation](https://hono.dev/)
+Choose any of our applications above to begin exploring TODD's capabilities. Each tool is designed to work independently or as part of an integrated workflow.
