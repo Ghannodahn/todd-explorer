@@ -35,3 +35,6 @@ Enhance discussions with our intelligent conversation and debate assistant for b
 
 ## Getting Started
 Choose any of our applications above to begin exploring TODD's capabilities. Each tool is designed to work independently or as part of an integrated workflow.
+
+## Infrastructure
+See our [Infrastructure](infra/infra-index.md) documentation for details on the tools and services we use to power TODD.
