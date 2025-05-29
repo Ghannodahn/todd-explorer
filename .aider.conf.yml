@@ -1,0 +1,10 @@
+# Aider Configuration for T9M Analytics
+# Only includes Aider-optimized markdown documentation files
+# Excludes all source code (TSX, CSS, etc.) per guidance
+
+read:
+  # Repository structure and guidance
+  - ".repo_map.md"
+  - "ARCHITECTURE.md"
+  - "CODEBASE_MAP.md"
+  - "DEVELOPMENT.md"
