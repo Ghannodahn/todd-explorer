@@ -164,31 +164,9 @@ Create `DEVELOPMENT.md` with setup and workflow information:
 ```
 
 ## Step 7: Create .aider-repo-map
-Create a specialized file for Aider called `.aider-repo-map`:
+Create a specialized file for Aider called repo_map.md`:
 
-```markdown
-# Aider Repository Map
-
-## Quick Reference
-This is a [type] application built with [main technologies].
-
-## Most Important Files for AI Assistance
-1. [Most central file] - [Purpose]
-2. [Second most important] - [Purpose]
-3. [Third most important] - [Purpose]
-4. [Fourth most important] - [Purpose]
-
-## Common Modification Patterns
-- [Where UI changes typically happen]
-- [Where business logic changes typically happen]
-- [Where configuration changes typically happen]
-
-## File Organization Principles
-[How files are organized in this project]
-
-## When making changes, consider:
-[Key principles or patterns that should be followed]
-```
+See [sample-repo_map.md](docs/opt/sample-repo_map.md) for an example.
 
 ## Step 8: Quality Check and Validation
 Before finalizing, verify:
