@@ -2,7 +2,7 @@
 
 Welcome to TODD, your comprehensive suite of development and diagnostic tools designed to enhance productivity and streamline workflows.
 
-## Core Components
+## Core Applications
 
 ### Prompty
 Optimize and refine your prompts for AI interactions with advanced analysis and suggestion tools.
@@ -17,7 +17,7 @@ Interactive diagram and entity modeling tool with intuitive read/write capabilit
 Compare and analyze outputs from different models and solutions in a controlled testing environment.
 
 ### Tooly
-Automated tool builder for creating custom tools for any problem, domain, and/or workflow.
+Automated tool builder for creating custom development utilities and workflows.
 
 ## Specialized Solutions
 
@@ -35,3 +35,6 @@ Enhance discussions with our intelligent conversation and debate assistant for b
 
 ## Getting Started
 Choose any of our applications above to begin exploring TODD's capabilities. Each tool is designed to work independently or as part of an integrated workflow.
+
+## Infrastructure
+See our [Infrastructure](infra/infra-index.md) documentation for details on the tools and services we use to power TODD.
