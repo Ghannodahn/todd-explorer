@@ -26,3 +26,4 @@ dist-ssr
 # Aider config
 .aider.*
 !.aider.conf.yml
+.aider*

@@ -4,7 +4,7 @@
 
 read:
   # Repository structure and guidance
-  - ".repo_map.md"
+  - "repo_map.md"
   - "ARCHITECTURE.md"
   - "CODEBASE_MAP.md"
   - "DEVELOPMENT.md"
